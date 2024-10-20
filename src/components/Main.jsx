@@ -53,11 +53,9 @@ const Main = () => {
       <div className="mb-4">
         <ListA listA={listA} handleChange={handleListAChange} required={true} />
       </div>
-
       <div className="mb-4">
         <ListB listB={listB} handleChange={handleListBChange} required={true} />
       </div>
-
       <div className="flex justify-center mt-4">
         <button
           className="bg-[#5b1011] hover:bg-[#34090A] text-white font-bold py-2 px-4 rounded mr-4"
@@ -66,7 +64,6 @@ const Main = () => {
         >
           Compute
         </button>
-
         <button
           className="bg-[#fad6e8] hover:bg-[#F292C2] text-[#11030a] font-bold py-2 px-4 rounded"
           onClick={clearAll}
@@ -101,7 +98,7 @@ const Main = () => {
                 ))}
               </ul>
             ) : (
-              <p>No items found in List A.</p>
+              <p>No Items Found In List A.</p>
             )}
           </div>
 
