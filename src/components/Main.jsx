@@ -111,12 +111,12 @@ const Main = () => {
                 ))}
               </ul>
             ) : (
-              <p>No items found in List B.</p>
+              <p>No Items Found In List B.</p>
             )}
           </div>
 
           <div className="mt-8">
-            <h2 className="text-lg font-bold mb-2">Items in both A and B:</h2>
+            <h2 className="text-lg font-bold mb-2">Items In Both A and B:</h2>
             {itemsInBoth.length > 0 ? (
               <ul className="list-disc list-inside">
                 {itemsInBoth.map((item) => (
