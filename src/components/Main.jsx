@@ -90,7 +90,7 @@ const Main = () => {
 
         <div className="modal-content overflow-auto custom-scrollbar">
           <div className="mt-8">
-            <h2 className="text-lg font-bold mb-2">Items only in A:</h2>
+            <h2 className="text-lg font-bold mb-2">Items Only in A:</h2>
             {itemsOnlyInA.length > 0 ? (
               <ul className="list-disc list-inside">
                 {itemsOnlyInA.map((item) => (
@@ -124,7 +124,7 @@ const Main = () => {
                 ))}
               </ul>
             ) : (
-              <p>No common items found.</p>
+              <p>No Common Items Found.</p>
             )}
           </div>
 
@@ -137,7 +137,7 @@ const Main = () => {
                 ))}
               </ul>
             ) : (
-              <p>No items found.</p>
+              <p>No Items Found.</p>
             )}
           </div>
         </div>
