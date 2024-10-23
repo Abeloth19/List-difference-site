@@ -103,7 +103,7 @@ const Main = () => {
           </div>
 
           <div className="mt-8">
-            <h2 className="text-lg font-bold mb-2">Items only in B:</h2>
+            <h2 className="text-lg font-bold mb-2">Items Only In B:</h2>
             {itemsOnlyInB.length > 0 ? (
               <ul className="list-disc list-inside">
                 {itemsOnlyInB.map((item) => (
@@ -129,7 +129,7 @@ const Main = () => {
           </div>
 
           <div className="mt-8">
-            <h2 className="text-lg font-bold mb-2">Combined Items of A and B (Unique):</h2>
+            <h2 className="text-lg font-bold mb-2">Combined Items Of A and B (Unique):</h2>
             {combinedItems.length > 0 ? (
               <ul className="list-disc list-inside">
                 {combinedItems.map((item) => (
